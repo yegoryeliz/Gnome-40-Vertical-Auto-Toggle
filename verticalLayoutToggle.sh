@@ -20,8 +20,8 @@ p3=$(awk "BEGIN {print $p1/$p2}")
 
 #toggle extention if screen ration is greater than 1.75
 if (( $(echo "$p3 > 1.75" |bc -l) ));
-  then echo gnome-extensions enable vertical-overview@RensAlthuis.github.com
-  else echo gnome-extensions disable vertical-overview@RensAlthuis.github.com
+  then gnome-extensions enable vertical-overview@RensAlthuis.github.com
+  else gnome-extensions disable vertical-overview@RensAlthuis.github.com
 fi
 
   sleep 5;
