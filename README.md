@@ -1,5 +1,5 @@
 # Gnome-40-Vertical-Auto-Toggle
-A script to automatically taggle the vertical overview gnome extension based on screen aspect ratio. Useful when docking a laptop to an ultawide screen.
+A script to automatically toggle the vertical overview gnome extension based on screen aspect ratio. Useful when docking a laptop to an ultawide screen.
 
 ## Prerequisites
 This script depends on the Vertical overview Gnome extension which can be found [Here](https://extensions.gnome.org/extension/4144/vertical-overview/)
